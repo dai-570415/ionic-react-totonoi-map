@@ -1,0 +1,865 @@
+{
+    "data": [
+        {
+            "id": "2306111426",
+            "title": "神戸サウナ＆スパ",
+            "area": "兵庫",
+            "release_datetime": "2023-06-11 14:26:00",
+            "exclusive": "男性専用",
+            "man": {
+                "isShow": true,
+                "sauna": "114",
+                "water": "11.7",
+                "outside": "◯",
+                "louryu": "◯"
+            },
+            "female": {
+                "isShow": false,
+                "sauna": "",
+                "water": "",
+                "outside": "",
+                "louryu": ""
+            },
+            "price": "1,900円〜",
+            "time": {
+                "isShow": true,
+                "start": "0:00",
+                "end": "24:00"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306111426",
+                "caption": "カプセルホテル - 兵庫県神戸市",
+                "created": "2023-06-11 14:26:00",
+                "modified": "2023-06-11 14:26:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "kobe_sauna.jpg"
+                }
+            },
+            "latitude": 34.6928488,
+            "longitude": 135.1902729,
+            "site_url": "http://www.kobe-sauna.co.jp/"
+        },
+        {
+            "id": "2306111439",
+            "title": "神戸レディススパ",
+            "area": "兵庫",
+            "release_datetime": "2023-06-11 14:39:00",
+            "exclusive": "女性専用",
+            "man": {
+                "isShow": false,
+                "sauna": "",
+                "water": "",
+                "outside": "",
+                "louryu": ""
+            },
+            "female": {
+                "isShow": true,
+                "sauna": "90",
+                "water": "17",
+                "outside": "◯",
+                "louryu": "◯"
+            },
+            "price": "1,900円〜",
+            "time": {
+                "isShow": true,
+                "start": "0:00",
+                "end": "24:00"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306111439",
+                "caption": "カプセルホテル - 兵庫県神戸市",
+                "created": "2023-06-11 14:39:00",
+                "modified": "2023-06-11 14:39:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "kobe_sauna_woman.jpg"
+                }
+            },
+            "latitude": 34.692886,
+            "longitude": 135.1900614,
+            "site_url": "http://kobe-ladies-spa.com/"
+        },
+        {
+            "id": "2306111348",
+            "title": "神戸クアハウス",
+            "area": "兵庫",
+            "release_datetime": "2023-06-11 13:48:00",
+            "exclusive": "",
+            "man": {
+                "isShow": true,
+                "sauna": "95",
+                "water": "18",
+                "outside": "◯",
+                "louryu": "◯"
+            },
+            "female": {
+                "isShow": true,
+                "sauna": "78",
+                "water": "17",
+                "outside": "ー",
+                "louryu": "ー"
+            },
+            "price": "1,100円〜",
+            "time": {
+                "isShow": true,
+                "start": "0:00",
+                "end": "24:00"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306111348",
+                "caption": "カプセルホテル - 兵庫県神戸市",
+                "created": "2023-06-11 13:48:00",
+                "modified": "2023-06-11 14:01:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "kuahouse.jpg"
+                }
+            },
+            "latitude": 34.6995909,
+            "longitude": 135.1960715,
+            "site_url": "https://kobe-kua-house.com/"
+        },
+        {
+            "id": "2306111501",
+            "title": "サウナリゾートオリエンタル神戸",
+            "area": "兵庫",
+            "release_datetime": "2023-06-11 15:01:00",
+            "exclusive": "",
+            "man": {
+                "isShow": true,
+                "sauna": "105",
+                "water": "8.5",
+                "outside": "◯",
+                "louryu": "◯"
+            },
+            "female": {
+                "isShow": true,
+                "sauna": "84",
+                "water": "28",
+                "outside": "ー",
+                "louryu": "ー"
+            },
+            "price": "1,600円〜",
+            "time": {
+                "isShow": true,
+                "start": "0:00",
+                "end": "24:00"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306111348",
+                "caption": "ホテル・旅館 - 兵庫県神戸市",
+                "created": "2023-06-11 15:01:00",
+                "modified": "2023-06-11 15:01:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "sauna_resort_oriental.jpg"
+                }
+            },
+            "latitude": 34.6725012,
+            "longitude": 135.2052967,
+            "site_url": "https://www.centurion-hotel.com/v-kobe/"
+        },
+        {
+            "id": "2306111845",
+            "title": "美健SPA湯櫻オアシスタウンキセラ川西店",
+            "area": "兵庫",
+            "release_datetime": "2023-06-11 18:45:00",
+            "exclusive": "",
+            "man": {
+                "isShow": true,
+                "sauna": "88",
+                "water": "15.5",
+                "outside": "◯",
+                "louryu": "◯"
+            },
+            "female": {
+                "isShow": true,
+                "sauna": "88",
+                "water": "14.8",
+                "outside": "◯",
+                "louryu": "◯"
+            },
+            "price": "800円〜",
+            "time": {
+                "isShow": true,
+                "start": "10:00",
+                "end": "24:00"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306111845",
+                "caption": "温浴施設 - 兵庫県川西市",
+                "created": "2023-06-11 18:45:00",
+                "modified": "2023-06-11 18:45:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "oasis_kisera_kawanishi.jpg"
+                }
+            },
+            "latitude": 34.8364506,
+            "longitude": 135.4192522,
+            "site_url": "https://yuzakura.co.jp/"
+        },
+        {
+            "id": "2306171144",
+            "title": "南光自然観察村",
+            "area": "兵庫",
+            "release_datetime": "2023-06-17 11:44:00",
+            "exclusive": "",
+            "man": {
+                "isShow": true,
+                "sauna": "120",
+                "water": "13",
+                "outside": "◯",
+                "louryu": "ー"
+            },
+            "female": {
+                "isShow": true,
+                "sauna": "ー",
+                "water": "ー",
+                "outside": "ー",
+                "louryu": "ー"
+            },
+            "price": "1,000円〜",
+            "time": {
+                "isShow": true,
+                "start": "8:00",
+                "end": "24:00"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306171144",
+                "caption": "温浴施設 - 兵庫県佐用郡佐用町",
+                "created": "2023-06-17 11:44:00",
+                "modified": "2023-06-17 11:44:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "nanko_nature.jpg"
+                }
+            },
+            "latitude": 35.0879003,
+            "longitude": 134.4290745,
+            "site_url": "https://www.nanko-camp.com/about-nanko-camp/about_facility/"
+        },
+        {
+            "id": "2306171149",
+            "title": "SPA専♨︎太平のゆ",
+            "area": "兵庫",
+            "release_datetime": "2023-06-17 11:49:00",
+            "exclusive": "",
+            "man": {
+                "isShow": true,
+                "sauna": "100",
+                "water": "15",
+                "outside": "◯",
+                "louryu": "◯"
+            },
+            "female": {
+                "isShow": true,
+                "sauna": "96",
+                "water": "16",
+                "outside": "◯",
+                "louryu": "◯"
+            },
+            "price": "800円〜",
+            "time": {
+                "isShow": true,
+                "start": "8:00",
+                "end": "24:00"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306171149",
+                "caption": "温浴施設 - 兵庫県神戸市",
+                "created": "2023-06-17 11:49:00",
+                "modified": "2023-06-17 11:49:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "taiheinoyu.jpg"
+                }
+            },
+            "latitude": 34.6266051,
+            "longitude": 135.0449682,
+            "site_url": "https://www.sentou.co.jp/"
+        },
+        {
+            "id": "2306171202",
+            "title": "蓬川温泉 みずきの湯",
+            "area": "兵庫",
+            "release_datetime": "2023-06-17 12:02:00",
+            "exclusive": "",
+            "man": {
+                "isShow": true,
+                "sauna": "90",
+                "water": "16",
+                "outside": "◯",
+                "louryu": "◯"
+            },
+            "female": {
+                "isShow": true,
+                "sauna": "88",
+                "water": "16",
+                "outside": "◯",
+                "louryu": "◯"
+            },
+            "price": "870円〜",
+            "time": {
+                "isShow": true,
+                "start": "6:00",
+                "end": "26:00"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306171202",
+                "caption": "温浴施設 - 兵庫県尼崎市",
+                "created": "2023-06-17 12:02:00",
+                "modified": "2023-06-17 12:02:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "yomogawaonsen_mizukinoyu.jpg"
+                }
+            },
+            "latitude": 34.7199195,
+            "longitude": 135.3971625,
+            "site_url": "http://www.mizukinoyu.com/"
+        },
+        {
+            "id": "2306171546",
+            "title": "SAUNA STATION",
+            "area": "兵庫",
+            "release_datetime": "2023-06-17 15:46:00",
+            "exclusive": "",
+            "man": {
+                "isShow": true,
+                "sauna": "ー",
+                "water": "ー",
+                "outside": "ー",
+                "louryu": "◯"
+            },
+            "female": {
+                "isShow": true,
+                "sauna": "ー",
+                "water": "ー",
+                "outside": "ー",
+                "louryu": "◯"
+            },
+            "price": "4,000円〜",
+            "time": {
+                "isShow": true,
+                "start": "11:00",
+                "end": ""
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306171546",
+                "caption": "温浴施設 - 兵庫県川辺郡猪名川町",
+                "created": "2023-06-17 15:46:00",
+                "modified": "2023-06-17 15:46:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "sauna_station.jpg"
+                }
+            },
+            "latitude": 34.8906821,
+            "longitude": 135.3700924,
+            "site_url": "https://saunastation.net/"
+        },
+        {
+            "id": "2306171550",
+            "title": "有馬温泉 太閤の湯",
+            "area": "兵庫",
+            "release_datetime": "2023-06-17 15:50:00",
+            "exclusive": "",
+            "man": {
+                "isShow": true,
+                "sauna": "90",
+                "water": "15",
+                "outside": "◯",
+                "louryu": "ー"
+            },
+            "female": {
+                "isShow": true,
+                "sauna": "86",
+                "water": "13",
+                "outside": "◯",
+                "louryu": "ー"
+            },
+            "price": "2,640円〜",
+            "time": {
+                "isShow": true,
+                "start": "10:00",
+                "end": "23:00"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306171550",
+                "caption": "温浴施設 - 兵庫県神戸市",
+                "created": "2023-06-17 15:50:00",
+                "modified": "2023-06-17 15:50:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "arimaonsen_taikounoyu.jpg"
+                }
+            },
+            "latitude": 34.797901,
+            "longitude": 135.2511128,
+            "site_url": "https://www.taikounoyu.com/"
+        },
+        {
+            "id": "2306171554",
+            "title": "三田天然温泉 寿ノ湯",
+            "area": "兵庫",
+            "release_datetime": "2023-06-17 15:54:00",
+            "exclusive": "",
+            "man": {
+                "isShow": true,
+                "sauna": "88",
+                "water": "16",
+                "outside": "◯",
+                "louryu": "◯"
+            },
+            "female": {
+                "isShow": true,
+                "sauna": "90",
+                "water": "19",
+                "outside": "◯",
+                "louryu": "ー"
+            },
+            "price": "750円〜",
+            "time": {
+                "isShow": true,
+                "start": "10:00",
+                "end": "23:00"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306171554",
+                "caption": "温浴施設 - 兵庫県三田市",
+                "created": "2023-06-17 15:54:00",
+                "modified": "2023-06-17 15:54:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "sandatennenonsen_kotobukinoyu.jpg"
+                }
+            },
+            "latitude": 34.8923889,
+            "longitude": 135.2017972,
+            "site_url": "https://kotobuki-yu.com/"
+        },
+        {
+            "id": "2306171558",
+            "title": "神戸ハーバーランド温泉 万葉倶楽部",
+            "area": "兵庫",
+            "release_datetime": "2023-06-17 15:58:00",
+            "exclusive": "",
+            "man": {
+                "isShow": true,
+                "sauna": "96",
+                "water": "18",
+                "outside": "ー",
+                "louryu": "ー"
+            },
+            "female": {
+                "isShow": true,
+                "sauna": "84",
+                "water": "20",
+                "outside": "ー",
+                "louryu": "ー"
+            },
+            "price": "1,150円〜",
+            "time": {
+                "isShow": true,
+                "start": "5:00",
+                "end": "26:00"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306171558",
+                "caption": "温浴施設 - 兵庫県神戸市",
+                "created": "2023-06-17 15:58:00",
+                "modified": "2023-06-17 15:58:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "kobe_manyonoyu.jpg"
+                }
+            },
+            "latitude": 34.6797916,
+            "longitude": 135.1808297,
+            "site_url": "https://www.manyo.co.jp/kobe/"
+        },
+        {
+            "id": "2306171601",
+            "title": "潮芦屋温泉SPA水春",
+            "area": "兵庫",
+            "release_datetime": "2023-06-17 16:01:00",
+            "exclusive": "",
+            "man": {
+                "isShow": true,
+                "sauna": "95",
+                "water": "16",
+                "outside": "◯",
+                "louryu": "◯"
+            },
+            "female": {
+                "isShow": true,
+                "sauna": "94",
+                "water": "16",
+                "outside": "◯",
+                "louryu": "◯"
+            },
+            "price": "1,285円〜",
+            "time": {
+                "isShow": true,
+                "start": "9:00",
+                "end": "25:00"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306171601",
+                "caption": "温浴施設 - 兵庫県芦屋市",
+                "created": "2023-06-17 16:01:00",
+                "modified": "2023-06-17 16:01:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "spamizuharu.jpg"
+                }
+            },
+            "latitude": 34.7115882,
+            "longitude": 135.3187069,
+            "site_url": "https://suisyun.jp/ashiya/"
+        },
+        {
+            "id": "2306171605",
+            "title": "恋野温泉 うはらの湯",
+            "area": "兵庫",
+            "release_datetime": "2023-06-17 16:05:00",
+            "exclusive": "",
+            "man": {
+                "isShow": true,
+                "sauna": "86",
+                "water": "17",
+                "outside": "◯",
+                "louryu": "◯"
+            },
+            "female": {
+                "isShow": true,
+                "sauna": "86",
+                "water": "17",
+                "outside": "◯",
+                "louryu": "ー"
+            },
+            "price": "1,100円〜",
+            "time": {
+                "isShow": true,
+                "start": "6:00",
+                "end": "23:30"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306171605",
+                "caption": "温浴施設 - 兵庫県神戸市",
+                "created": "2023-06-17 16:05:00",
+                "modified": "2023-06-17 16:05:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "uharanoyu.jpg"
+                }
+            },
+            "latitude": 34.7167223,
+            "longitude": 135.265596,
+            "site_url": "https://www.uharanoyu.com/"
+        },
+        {
+            "id": "2306171608",
+            "title": "天然涌湯 吟湯 湯治聚落",
+            "area": "兵庫",
+            "release_datetime": "2023-06-17 16:08:00",
+            "exclusive": "",
+            "man": {
+                "isShow": true,
+                "sauna": "98",
+                "water": "17",
+                "outside": "◯",
+                "louryu": "ー"
+            },
+            "female": {
+                "isShow": true,
+                "sauna": "94",
+                "water": "18",
+                "outside": "◯",
+                "louryu": "ー"
+            },
+            "price": "850円〜",
+            "time": {
+                "isShow": true,
+                "start": "10:00",
+                "end": "22:00"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306171608",
+                "caption": "温浴施設 - 兵庫県神戸市",
+                "created": "2023-06-17 16:08:00",
+                "modified": "2023-06-17 16:08:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "tojishuraku.jpg"
+                }
+            },
+            "latitude": 34.867305,
+            "longitude": 135.1881398,
+            "site_url": "http://www.tojishuraku.com/"
+        },
+        {
+            "id": "2306171612",
+            "title": "KAMOME SLOW HOTEL",
+            "area": "兵庫",
+            "release_datetime": "2023-06-17 16:12:00",
+            "exclusive": "共用",
+            "man": {
+                "isShow": true,
+                "sauna": "95",
+                "water": "17",
+                "outside": "◯",
+                "louryu": "ー"
+            },
+            "female": {
+                "isShow": true,
+                "sauna": "95",
+                "water": "17",
+                "outside": "◯",
+                "louryu": "ー"
+            },
+            "price": "ー",
+            "time": {
+                "isShow": true,
+                "start": "7:00",
+                "end": "11:00"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306171612",
+                "caption": "温浴施設 - 兵庫県淡路市 宿泊者限定",
+                "created": "2023-06-17 16:12:00",
+                "modified": "2023-06-17 16:12:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "kamomeslow_hotel.jpg"
+                }
+            },
+            "latitude": 34.486258,
+            "longitude": 134.8532166,
+            "site_url": "https://kamome-slow-hotel.jp/"
+        },
+        {
+            "id": "2306171616",
+            "title": "白川温泉チムジルバンスパ神戸",
+            "area": "兵庫",
+            "release_datetime": "2023-06-17 16:16:00",
+            "exclusive": "",
+            "man": {
+                "isShow": true,
+                "sauna": "90",
+                "water": "16",
+                "outside": "◯",
+                "louryu": "◯"
+            },
+            "female": {
+                "isShow": true,
+                "sauna": "94",
+                "water": "17",
+                "outside": "◯",
+                "louryu": "ー"
+            },
+            "price": "1,050円〜",
+            "time": {
+                "isShow": true,
+                "start": "10:00",
+                "end": "24:00"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306171616",
+                "caption": "温浴施設 - 兵庫県神戸市",
+                "created": "2023-06-17 16:16:00",
+                "modified": "2023-06-17 16:16:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "chimujirubanspa.jpg"
+                }
+            },
+            "latitude": 34.6893751,
+            "longitude": 135.1093069,
+            "site_url": "https://chimuspa.com/"
+        },
+        {
+            "id": "2306171619",
+            "title": "HOTTERS24西宮上ヶ原店",
+            "area": "兵庫",
+            "release_datetime": "2023-06-17 16:19:00",
+            "exclusive": "男性専用",
+            "man": {
+                "isShow": true,
+                "sauna": "95",
+                "water": "-5",
+                "outside": "ー",
+                "louryu": "ー"
+            },
+            "female": {
+                "isShow": false,
+                "sauna": "",
+                "water": "",
+                "outside": "",
+                "louryu": ""
+            },
+            "price": "ー",
+            "time": {
+                "isShow": true,
+                "start": "0:00",
+                "end": "24:00"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306171619",
+                "caption": "温浴施設 - 兵庫県西宮市",
+                "created": "2023-06-17 16:19:00",
+                "modified": "2023-06-17 16:19:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "hotters24_nishinomiya.jpg"
+                }
+            },
+            "latitude": 34.7599888,
+            "longitude": 135.3425075,
+            "site_url": "https://hotters24.com/nishinomiyauegahara/"
+        },
+        {
+            "id": "2306171624",
+            "title": "灘温泉水道橋筋店",
+            "area": "兵庫",
+            "release_datetime": "2023-06-17 16:24:00",
+            "exclusive": "",
+            "man": {
+                "isShow": true,
+                "sauna": "92",
+                "water": "20",
+                "outside": "◯",
+                "louryu": "ー"
+            },
+            "female": {
+                "isShow": true,
+                "sauna": "90",
+                "water": "22",
+                "outside": "◯",
+                "louryu": "ー"
+            },
+            "price": "600円〜",
+            "time": {
+                "isShow": true,
+                "start": "5:00",
+                "end": "24:00"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306171624",
+                "caption": "温浴施設 - 兵庫県神戸市",
+                "created": "2023-06-17 16:24:00",
+                "modified": "2023-06-17 16:24:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "nadaonsen.jpg"
+                }
+            },
+            "latitude": 34.7142713,
+            "longitude": 135.2268848,
+            "site_url": "http://www.nadaonsen.jp/suidou_index.html"
+        },
+        {
+            "id": "2306171626",
+            "title": "延羽の湯 野天閑雅山荘",
+            "area": "兵庫",
+            "release_datetime": "2023-06-17 16:26:00",
+            "exclusive": "",
+            "man": {
+                "isShow": true,
+                "sauna": "94",
+                "water": "16",
+                "outside": "◯",
+                "louryu": "◯"
+            },
+            "female": {
+                "isShow": true,
+                "sauna": "90",
+                "water": "15",
+                "outside": "◯",
+                "louryu": "◯"
+            },
+            "price": "1,800円〜",
+            "time": {
+                "isShow": true,
+                "start": "10:00",
+                "end": "24:00"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2306171626",
+                "caption": "温浴施設 - 兵庫県三木市",
+                "created": "2023-06-17 16:26:00",
+                "modified": "2023-06-17 16:26:00",
+                "dir": "hyogo",
+                "file_path": {
+                    "xl": "nobehanoyu.jpg"
+                }
+            },
+            "latitude": 34.8168831,
+            "longitude": 135.0549668,
+            "site_url": "https://nesta.co.jp/spa"
+        },
+        {
+            "id": "2307042252",
+            "title": "サウナ&スパ カプセルホテル 大東洋",
+            "area": "大阪",
+            "release_datetime": "2023-07-04 22:52:00",
+            "exclusive": "男性専用",
+            "man": {
+                "isShow": true,
+                "sauna": "95",
+                "water": "7.8",
+                "outside": "◯",
+                "louryu": "◯"
+            },
+            "female": {
+                "isShow": false,
+                "sauna": "",
+                "water": "",
+                "outside": "",
+                "louryu": ""
+            },
+            "price": "1,600円〜",
+            "time": {
+                "isShow": true,
+                "start": "12:00",
+                "end": "翌日10:00"
+            },
+            "image": {
+                "id": "0001",
+                "parent_id": "2307042252",
+                "caption": "カプセルホテル - 大阪府大阪市",
+                "created": "2023-07-04 22:52:00",
+                "modified": "2023-07-04 22:52:00",
+                "dir": "osaka",
+                "file_path": {
+                    "xl": "daitoyo.jpg"
+                }
+            },
+            "latitude": 34.7052817,
+            "longitude": 135.502615,
+            "site_url": "https://www.daitoyo.co.jp/spa/mens/"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "トトノイマップ",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "pwa": {
+    "manifest": "manifest.json"
+  }
+}

@@ -1,0 +1,30 @@
+.splashContainer {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    .splash {
+        img {
+            animation: bounce 1.5s ease-in-out forwards;
+        }
+        @keyframes bounce {
+            0% {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            50% {
+                transform: translateY(20px);
+                opacity: 0.5;
+            }
+            100% {
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        }
+    }
+}

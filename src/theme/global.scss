@@ -1,0 +1,70 @@
+// font-family: 'Noto Sans JP', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+// font-family: 'Josefin Sans', sans-serif;
+// @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+// font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// これかけるとネイティブのボトムタグがおかしくなる
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
+* {
+    &::selection {
+        background: #cedeed;
+    }
+}
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    overflow-x: hidden;
+    color: #333;
+    background: #fff;
+}
+a {
+    text-decoration: none;
+    color: #333;
+    transition: .5s;
+    &:hover {
+        opacity: .7;
+    }
+}
+ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    li {
+        list-style: none;
+    }
+}
+img {
+    vertical-align: top;
+}
+
+.openBtn {
+    display: block;
+    text-shadow: -1px -1px rgba(255,255,255,.1), 1px 1px rgba(0,0,0,.5);
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    width: calc(100% - 40px);
+    margin: 0 auto 40px;
+    padding: 20px 16px 16px;
+    // border-bottom: solid 4px #ba964f;
+    border-bottom: solid 4px #070265;
+    border-radius: 3px;
+    // background: #ffb90a; 
+    background: #0a0299;
+}
+.closeBtn {
+    display: block;
+    color: #fff;
+    width: 80px;
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 30px;
+    background: #333;
+}

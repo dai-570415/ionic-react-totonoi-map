@@ -1,0 +1,87 @@
+.weather {
+    .selectWrap {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background: #E4EDFA;
+        li {
+            display: flex;
+            align-items: center;
+            margin: 0 20px 0 0;
+            h4 { 
+                font-size: 12px;
+                font-weight: bold;
+                color: #6F8EBC;
+                margin: 0;
+                &::after {
+                    content: "";
+                    height: 20px;
+                    margin: 0 16px;
+                    border-right: 1px solid #6F8EBC;
+                }
+            }
+            select {
+                font-size: 12px;
+                font-weight: bold;
+                color: #fff;
+                padding: 4px;
+                border: none;
+                border-radius: 30px;
+                background: #486EA7;
+                outline: none;
+            }
+        }
+    }
+    .weatherWrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        background: #F4F7FC;
+        .main {
+            width: 46%;
+            .date {
+                text-align: center;
+                font-size: 16px;
+                color: #6F8EBC;
+            }
+            .innerMain {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    width: 60px;
+                    height: 60px;
+                    position: relative;
+                    top: 2px;
+                }
+                h3 {
+                    font-size: 48px;
+                    color: #486EA7;
+                    margin: 0;
+                    span {
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+        .sub {
+            width: 46%;
+            padding: 16px;
+            border-radius: 8px;
+            background: #fff;
+            .chanceOfRain {
+                display: flex;
+                font-weight: bold;
+                color: #486EA7;
+                h5, p {
+                    font-size: 12px;
+                    margin: 0 0 2px 0;
+                }
+                h5 {
+                    width: 80px;
+                }
+            }
+        }
+    }
+}
