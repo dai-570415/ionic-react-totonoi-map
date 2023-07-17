@@ -1,22 +1,14 @@
-import { useContext } from 'react';
 import { withRouter } from 'react-router';
-import firebase from '../../Firebase'
-import { AuthContext } from './AuthProvider';
+import { useSignOut } from './hooks/useSignOut';
 
 const SignOut = () => {
-    const user = firebase.auth().currentUser;
-
-    const { signout } = useContext(AuthContext);
-    const onSignOut = () => {
-        signout();
-        window.history.pushState(null, null, '/')
-    }
+    const { user, onSignOut } = useSignOut();
 
     return (
         <>
             {user != null &&
                 <button onClick={ onSignOut }>
-                    Sign out
+                    Sign Out
                 </button>
             }
         </>

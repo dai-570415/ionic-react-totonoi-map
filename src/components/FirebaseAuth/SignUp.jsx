@@ -4,6 +4,7 @@ import { Header } from '../Layout/Header';
 import { useContext } from 'react';
 import { withRouter } from 'react-router';
 import { AuthContext } from './AuthProvider';
+import Styles from './css/Sign.module.css';
 
 const Signup = ({ history }) => {
     const { signup } = useContext(AuthContext);
@@ -18,12 +19,12 @@ const Signup = ({ history }) => {
         <IonPage>
             <Header />
             <IonContent fullscreen>
-                <section>
+                <section className={Styles.signPage}>
                     <h2>サインアップ</h2>
                     <form onSubmit={ handleSubmit }>
-                        <input name="email" type="email" placeholder="メールアドレス" />
-                        <input name="password" type="password" placeholder="パスワード" />
-                        <button type="submit">サインアップ</button>
+                        <input className={Styles.input} name="email" type="email" placeholder="メールアドレス" />
+                        <input className={Styles.input} name="password" type="password" placeholder="パスワード" />
+                        <button className={Styles.submitBtn} type="submit">サインアップ</button>
                     </form>
                     <Link to="/signin">登録ユーザーですか？ログイン</Link>
                 </section>

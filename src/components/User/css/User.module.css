@@ -1,0 +1,68 @@
+.user {
+    width: calc(100% - 40px);
+    margin: 40px auto;
+}
+.user .form h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 24px 0;
+}
+.user .form h2::before {
+    content: "";
+    display: block;
+    width: 24px;
+    margin: 0 0 12px 0;
+    border-top: 3px solid #298EE7;
+}
+.user .form label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 4px 0;
+}
+.user .form .input {
+    display: block;
+    font-size: 16px;
+    line-height: 1.4;
+    width: 100%;
+    margin: 0 0 12px 0;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #eee;
+}
+.user .form ::-moz-placeholder {
+    color: #a0a0a0;
+    font-size: 12px;
+}
+.user .form ::placeholder {
+    color: #a0a0a0;
+    font-size: 12px;
+}
+.user .form .submitBtn {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    margin: 0 0 24px 0;
+    padding: 16px;
+    border-radius: 8px;
+    background: #298EE7;
+    filter: drop-shadow(0 6px 0 #237bc9);
+}
+.user .form .error {
+    font-size: 16px;
+    font-weight: bold;
+    color: #d92222;
+    margin: 0 0 12px 0;
+}
+.user .form .update {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #298EE7;
+    padding: 12px;
+    border: 2px solid #298EE7;
+    border-radius: 8px;
+}

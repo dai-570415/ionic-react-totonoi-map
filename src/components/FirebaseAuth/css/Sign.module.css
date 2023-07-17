@@ -1,0 +1,73 @@
+.signPage {
+    width: calc(100% - 40px);
+    margin: 40px auto;
+}
+.signPage h2 {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 0 24px 0;
+}
+.signPage button.googleSighIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    width: 100%;
+    padding: 12px;
+    border-radius: 30px;
+    background: #fff;
+    filter: drop-shadow(0 0 6px #dedede);
+}
+.signPage button.googleSighIn img {
+    width: 24px;
+    height: 24px;
+    margin: 0 12px 0 0;
+}
+.signPage button.googleSighIn img,
+.signPage button.googleSighIn span {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+.signPage .or {
+    text-align: center;
+    font-size: 12px;
+    margin: 16px auto 12px;
+}
+.signPage .input {
+    display: block;
+    font-size: 16px;
+    line-height: 1.4;
+    width: 100%;
+    margin: 0 0 12px 0;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #eee;
+}
+.signPage ::-moz-placeholder {
+    color: #a0a0a0;
+    font-size: 12px;
+}
+.signPage ::placeholder {
+    color: #a0a0a0;
+    font-size: 12px;
+}
+.signPage .submitBtn {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    margin: 0 0 24px 0;
+    padding: 16px;
+    border-radius: 8px;
+    background: #298EE7;
+    filter: drop-shadow(0 6px 0 #237bc9);
+}
+.signPage a {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: underline;
+}

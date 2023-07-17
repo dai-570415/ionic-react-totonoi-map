@@ -64,6 +64,13 @@ export type WeatherTypes = {
   }[];
 }
 
+// User
+export type UserTypes = {
+  authId: string;
+  docId: string;
+  name: string;
+}
+
 // export interface KpDetailPageProps
 //   extends RouteComponentProps<{ id: string;}> {}
 

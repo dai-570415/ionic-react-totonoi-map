@@ -5,6 +5,8 @@ import { useContext, Suspense } from 'react';
 import { AuthContext } from './AuthProvider';
 import { withRouter } from 'react-router';
 import GoogleAuth from './GoogleAuth';
+import Styles from './css/Sign.module.css';
+import GoogleIcon from './img/google.svg';
 
 let result = null;
 const timeout = (msec) => new Promise(resolve => {
@@ -22,20 +24,20 @@ const LazyComponent = ({ history }) => {
     
     if (result !== null) {
         return (
-            <section>
+            <section className={Styles.signPage}>
                 <h2>サインイン</h2>
-                <button onClick={ GoogleAuth }>
-                    Googleでサインイン
+                <button className={Styles.googleSighIn} onClick={ GoogleAuth }>
+                    <img src={GoogleIcon} alt="Googleでサインイン" />
+                    <span>Googleでサインイン</span>
                 </button>
-                <div className="or">または</div>
+                <div className={Styles.or}>または</div>
                 <form onSubmit={ handleSubmit }>
-                    <input className="create-input" name="email" type="email" placeholder="メールアドレス"/>
-                    <input className="create-input" name="password" type="password" placeholder="パスワード"/>
-                    <button className="create-button" type="submit">サインイン</button>
+                    <input className={Styles.input} name="email" type="email" placeholder="メールアドレス"/>
+                    <input className={Styles.input} name="password" type="password" placeholder="パスワード"/>
+                    <button className={Styles.submitBtn} type="submit">サインイン</button>
                 </form>
-                <div className="link">
-                    <Link to="/signup">新規ユーザーですか？登録</Link>
-                </div>
+                
+                <Link to="/signup">新規ユーザーですか？登録</Link>
             </section>
         )
     }
