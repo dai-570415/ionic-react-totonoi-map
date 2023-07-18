@@ -1,9 +1,15 @@
 import { IonIcon, IonLabel, IonRouterOutlet, IonTabBar, IonTabButton, IonTabs } from '@ionic/react';
-import { homeSharp, logInOutline, logOutOutline, sunnySharp, personAddSharp } from 'ionicons/icons';
+import { 
+    homeSharp, 
+    logInOutline, 
+    logOutOutline, 
+    // newspaperSharp, 
+    personAddSharp 
+} from 'ionicons/icons';
 import { Redirect, Route } from 'react-router';
 
 import Map from '../pages/MapScreen';
-import Weather from '../pages/WeatherScreen';
+import News from '../pages/NewsScreen';
 import User from '../pages/UserScreen';
 
 import SignIn from '../components/FirebaseAuth/SignIn';
@@ -20,7 +26,7 @@ export const Router = () => {
             <Route exact path="/signin" component={ SignIn } />
             <Route exact path="/signup" component={ SignUp } />
             <Route exact path="/" component={ Map } />
-            <Route exact path="/weather" component={ Weather } />
+            <Route exact path="/news" component={ News } />
             <PrivateRoute exact path="/user" component={ User } />
 
             <Route exact path="/top"><Redirect to="/" /></Route>
@@ -32,10 +38,10 @@ export const Router = () => {
                     <IonLabel><strong>トップ</strong></IonLabel>
                 </IonTabButton>
 
-                <IonTabButton tab="weather" href="/weather">
-                    <IonIcon aria-hidden="true" icon={sunnySharp} />
-                    <IonLabel><strong>天気</strong></IonLabel>
-                </IonTabButton>
+                {/* <IonTabButton tab="news" href="/news">
+                    <IonIcon aria-hidden="true" icon={newspaperSharp} />
+                    <IonLabel><strong>ニュース</strong></IonLabel>
+                </IonTabButton> */}
 
                 {user && (
                     <IonTabButton tab="user" href="/user">

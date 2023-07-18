@@ -2,7 +2,7 @@ import { IonContent, IonPage } from '@ionic/react';
 import { Header } from '../components/Layout/Header';
 import { Weather } from '../components/Weather/Weather';
 
-const WeatherScreen = () => {
+const NewsScreen = () => {
     return (
         <IonPage>
             <Header />
@@ -13,4 +13,4 @@ const WeatherScreen = () => {
     );
 }
 
-export default WeatherScreen;
+export default NewsScreen;
